@@ -5,7 +5,7 @@ Interactive 3D map of academic disciplines with local knowledge profiles, worksp
 ## Run locally
 
 1. Install Node.js 20 or newer.
-2. Run `npm install` and `npm run dev`.
+2. Run `npm install` and `npm.cmd run dev`.
 3. Open the local URL printed by Vite.
 
 The map, manual profiles, layers, and preferences work without an AI key. For AI requests, deploy to Vercel and configure `OPENAI_API_KEY` in the server environment. `OPENAI_MODEL` is optional and defaults to `gpt-4.1-mini`. Do not put either secret in a `VITE_` variable.
